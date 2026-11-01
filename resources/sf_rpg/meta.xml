@@ -1,8 +1,9 @@
 <meta>
-    <info author="Goffer75" name="San Fierro RPG - Core" version="0.1.0" type="script" description="Rdzen gamemode'a RPG: konta, postacie, pieniadze, HUD, spawn w San Fierro" />
+    <info author="Goffer75" name="San Fierro RPG - Core (MySQL)" version="0.2.0" type="script" description="Rdzen gamemode'a RPG na MySQL: konta, postacie, pieniadze, HUD, spawn w San Fierro" />
     <oop>false</oop>
 
     <script src="shared.lua" type="shared" />
+    <script src="server/mysql_config.lua" type="server" />
     <script src="server/database.lua" type="server" />
     <script src="server/accounts.lua" type="server" />
     <script src="server/characters.lua" type="server" />
